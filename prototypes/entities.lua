@@ -168,7 +168,7 @@ data:extend(
 		  maximum = 1.0,
 		},
 		categories = {"armor"},
-		color_lookup = {{0.5, "__core__/graphics/color_luts/nightvision.png"}}
+		color_lookup = {{0, "__core__/graphics/color_luts/lut-sunset.png"}}
 	},
 
 }

@@ -1,4 +1,9 @@
 ##VERSIONS:
+1.1.1   - factorio 1.1 compatible
+1.0.26  - added a check for removed night vision research
+1.0.25	- fixed perfect night glasses
+1.0.24	- factorio 0.18 compatible
+1.0.23	- balloon lamps can now be fast replaced with other buildable lamps and vice versa
 1.0.21	- factorio 0.17 compatible
 1.0.20	- new graphic separation to allow balloon only coloring thru color signals.
 1.0.18	- new alternate short balloon lamp (for laku :-) ).

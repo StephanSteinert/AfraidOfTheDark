@@ -1,0 +1,25 @@
+##VERSIONS:
+1.1.1   - factorio 1.1 compatible
+1.0.26  - added a check for removed night vision research
+1.0.25	- fixed perfect night glasses
+1.0.24	- factorio 0.18 compatible
+1.0.23	- balloon lamps can now be fast replaced with other buildable lamps and vice versa
+1.0.21	- factorio 0.17 compatible
+1.0.20	- new graphic separation to allow balloon only coloring thru color signals.
+1.0.18	- new alternate short balloon lamp (for laku :-) ).
+1.0.17	- factorio 0.16 compatible
+1.0.16	- factorio 0.15 compatible
+1.0.15	- factorio 0.14 compatible
+1.0.14	- better init forces when installing on existing game.
+1.0.13	- bright or dimmed gfx model customisable in config.lua
+1.0.10	- dimming the light bulb model.
+1.0.9	- new utils
+1.0.8	- minor corrections
+1.0.7	- 0.13 compatible.
+1.0.6	- rework of initialisation routines. Custom license. Add a test for prototypes that forgot lights definition.
+1.0.5	- test to avoid crash due to Avatars bad definition of light.
+1.0.4	- apply also to all other player types, not only basic player/player (like FARL and YARM avatars).
+1.0.3	- Improves multiplayer compatibility.
+1.0.2	- Generalize to vehicles, locomotives and airplanes.
+1.0.1	- Introduces personal light enforcement.
+1.0.0	- Initial release.

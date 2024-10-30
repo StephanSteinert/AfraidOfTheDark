@@ -168,6 +168,7 @@ data:extend(
 		  maximum = 1.0,
 		},
 		categories = {"armor"},
+		color_lookup = {{0.5, "__core__/graphics/color_luts/nightvision.png"}}
 	},
 
 }

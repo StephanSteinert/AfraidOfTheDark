@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.32
+Date: 30-10-2024
+  Changes:
+    - Merged Bright Universe 2.0.4 a AOTD fork. Now has startup settings/presets for all the planets. ~Ashayazu
+    - Startup setting to enable/disable enforced personal lights and brighten player surroundings.
+    
+---------------------------------------------------------------------------------------------------
 Version: 1.0.31
 Date: 30-10-2024
   Info:

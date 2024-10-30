@@ -27,7 +27,7 @@ data:extend(
 			type = "electric",
 			usage_priority = "secondary-input"
 		},
-		energy_usage_per_tick = "30KW",
+		energy_usage_per_tick = "30kW",
 		light = {intensity = 0.95, size = 120},
 		picture_off =
 		{
@@ -86,7 +86,7 @@ data:extend(
 			type = "electric",
 			usage_priority = "secondary-input"
 		},
-		energy_usage_per_tick = "30KW",
+		energy_usage_per_tick = "30kW",
 		light = {intensity = 0.95, size = 120},
 		picture_off =
 		{

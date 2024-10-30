@@ -34,9 +34,19 @@ function on_configuration_changed(data)
 		debug_print( "update mod: ", debug_mod_name )
 		
 		for _,force in pairs(game.forces) do
-			force.recipes["balloon-light"].enabled = force.technologies["optics"].researched
-			force.recipes["short-balloon-light"].enabled = force.technologies["optics"].researched
-			force.recipes["perfect-night-glasses"].enabled = force.technologies["night-vision-equipment"].researched
+			if (force.technologies["optics"] == nil) then
+				force.recipes["balloon-light"].enabled = true
+				force.recipes["short-balloon-light"].enabled = true
+			else
+				force.recipes["balloon-light"].enabled = force.technologies["optics"].researched
+				force.recipes["short-balloon-light"].enabled = force.technologies["optics"].researched
+			end
+			
+			if (force.technologies["night-vision-equipment"] == nil) then
+				force.recipes["perfect-night-glasses"].enabled = true
+			else
+				force.recipes["perfect-night-glasses"].enabled = force.technologies["night-vision-equipment"].researched
+			end
 		end
 	end
 end

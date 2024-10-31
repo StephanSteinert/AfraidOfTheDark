@@ -30,7 +30,7 @@ data:extend(
 		name = "perfect-night-glasses",
 		icon = "__AfraidOfTheDark__/graphics/perfect-night-glasses-icon.png",
 		icon_size = 32,
-		placed_as_equipment_result = "perfect-night-glasses",
+		place_as_equipment_result = "perfect-night-glasses",
 		-- flags = { "goes-to-quickbar" },
 		subgroup = "equipment",
 		order = "f[night-vision]-p[perfect-night-glasses]",

@@ -1,4 +1,5 @@
 require("utils")
+require("config")
 
 require("prototypes.entities")
 require("prototypes.items")
